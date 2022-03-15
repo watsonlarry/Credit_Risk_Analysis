@@ -15,30 +15,30 @@ Sammpling methods we're employing:
 Oversampling
 Random Over Sampler: This model yieled an accuracy score of 67.43%. The precision was low for the minority class (high risk) at 0.01, while high for the majority class (low risk) at 1.00. The recall was higher for the minority class at 0.74 and a little lower for the minority class at 0.61.
 
-! [over] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/over.png)
+![over](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/over.png)
 
 SMOTE: This model yieled an accuracy score of 66.23%. The precision for the minority class was 0.01 and 1.00 for the majority class. The recall was 0.68 for the minority class and 0.41 for the majority class.
 
-! [smote] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/smote.png)
+![smote](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/smote.png)
 
 Undersampling
 Cluster Centroids: This model yieled an accuracy score of 54.70%. The precision for the minority class was 0.01 and 1.00 for the majority class. The recall for the minority class was 0.68 and 0.41 for the majority class.
 
-! [cluster] (Credit_Risk_Analysis/blob/main/Resources/cluster.png)
+![cluster](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/cluster.png)
 
 Combination (Over and Under) Sampling
 SMOTTEENN: This model yielded an accuracy score of 66.15%. The precision for the minority class was 0.01 and 1.00 for the majority. The recall for the minority class was 0.73 and 0.59 for the majority class
 
-! [smotteenn] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/smotteenn.png)
+![smotteenn](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/smotteenn.png)
 
 Ensemble Learners
 Balanced Random Forest Classifier: This model yielded an accuracy score of 78.85%. The precision for the minority class was 0.03 for the minority class and 1.00 for the majority class. The recall for the minority class was 0.70 and 0.87 for the majority class.
 
-! [balanced] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/balancedrandom.png)
+![balanced](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/balancedrandom.png)
 
 Easy Ensemble AdaBoost: This model yielded an accuracy score of 93.17%. The precision for the minority class was 0.09 and 1.00 for the majority class. The recall for the minority class was 0.92 and 0.94 for the majority class.
 
-! [ada] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/ada.png)
+![ada](https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/ada.png)
 
 
 ## Summary
