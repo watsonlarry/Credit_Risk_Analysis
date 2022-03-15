@@ -24,7 +24,7 @@ SMOTE: This model yieled an accuracy score of 66.23%. The precision for the mino
 Undersampling
 Cluster Centroids: This model yieled an accuracy score of 54.70%. The precision for the minority class was 0.01 and 1.00 for the majority class. The recall for the minority class was 0.68 and 0.41 for the majority class.
 
-! [cluster] (https://github.com/watsonlarry/Credit_Risk_Analysis/blob/main/Resources/cluster.png)
+! [cluster] (Credit_Risk_Analysis/blob/main/Resources/cluster.png)
 
 Combination (Over and Under) Sampling
 SMOTTEENN: This model yielded an accuracy score of 66.15%. The precision for the minority class was 0.01 and 1.00 for the majority. The recall for the minority class was 0.73 and 0.59 for the majority class
